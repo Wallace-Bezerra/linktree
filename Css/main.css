@@ -53,10 +53,18 @@ body .creditos {
     padding: 0;
   }
   body .card {
+    border-radius: 0;
     margin: 0;
+  }
+  body .card .capa img {
+    border-radius: 0;
   }
   body .card .info .imagem {
     padding-top: 80px;
+  }
+  body .card .info .imagem img {
+    max-width: 200px;
+    height: 200px;
   }
 }
 
